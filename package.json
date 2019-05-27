@@ -1,0 +1,26 @@
+{
+  "name": "bowser65.xyz",
+  "version": "1.0.0",
+  "description": "My personal website with my projects and other things about me",
+  "main": "index.html",
+  "repository": "git@github.com:Bowser65/bowser65.xyz",
+  "author": "Bowser65 <contact.bowser65@gmail.com>",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "dev": "parcel serve index.html",
+    "build": "parcel build index.html --no-source-maps"
+  },
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "sass": "^1.20.1"
+  }
+}

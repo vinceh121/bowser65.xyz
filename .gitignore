@@ -1,1 +1,9 @@
+# IntelliJ
 .idea
+
+# noodle.js
+node_modules
+
+# Parcel
+.cache
+dist

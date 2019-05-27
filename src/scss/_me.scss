@@ -1,0 +1,33 @@
+.me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .about {
+    margin-left: 25px;
+    letter-spacing: 1px;
+
+    .name {
+      font-weight: 300;
+      font-size: 3rem;
+      margin: 0 0 10px;
+      filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.4));
+    }
+
+    .desc {
+      font-size: 1.5rem;
+      filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.4));
+
+      .js { color: #f0da50 }
+      .kt { color: #f59000 }
+      .ex { color: #9b4ecf }
+      .go { color: #74cddd }
+    }
+  }
+}

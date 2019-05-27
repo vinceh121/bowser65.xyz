@@ -1,0 +1,78 @@
+.links {
+  display: flex;
+  margin-top: 35px;
+
+  .link {
+    transition: .3s;
+    display: flex;
+    height: 42px;
+    align-items: center;
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+      filter: brightness(70%);
+    }
+
+    &:before {
+      content: '';
+      width: 22px;
+      height: 22px;
+      margin-right: 5px;
+      background-size: contain;
+    }
+
+    &.discord {
+      background-color: #7289da;
+
+      &:before {
+        background-image: url(../assets/icons/discord.svg);
+      }
+    }
+
+    &.twitter {
+      background-color: #1da1f2;
+
+      &:before {
+        background-image: url(../assets/icons/twitter.svg);
+      }
+    }
+
+    &.github {
+      background-color: #292d32;
+
+      &:before {
+        background-image: url(../assets/icons/github.svg);
+      }
+    }
+
+    &.patreon {
+      background-color: #f96854;
+
+      &:before {
+        background-image: url(../assets/icons/patreon.svg);
+      }
+    }
+
+    &.keybase {
+      background-color: #33a0ff;
+
+      &:before {
+        background-image: url(../assets/icons/keybase.png);
+      }
+    }
+
+    &.steam {
+      background-color: #171a21;
+
+      &:before {
+        background-image: url(../assets/icons/steam.svg);
+      }
+    }
+  }
+}
