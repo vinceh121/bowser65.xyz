@@ -1,6 +1,6 @@
 /*!
- * bowser65.xyz
- * Copyright (C) 2019 Bowser65
+ * Bowser65's Personal Website
+ * Copyright (C) 2017-2019 Bowser65
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -40,9 +40,11 @@ body:before {
   left: 0;
   right: 0;
   z-index: 0;
-  filter: blur(5px) brightness(50%);;
+  filter: brightness(40%);
   background-image: url(../assets/background.jpg);
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
 
 #contents {

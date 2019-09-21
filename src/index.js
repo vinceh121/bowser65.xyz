@@ -1,7 +1,7 @@
 /**
  * @license
- * bowser65.xyz
- * Copyright (C) 2019 Bowser65
+ * Bowser65's Personal Website
+ * Copyright (C) 2017-2019 Bowser65
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -18,7 +18,17 @@
  */
 
 import img2016 from '../assets/avatar.2016.png'
+import img2018 from '../assets/avatar.2018.png'
 
-if (window.location.search === '?2016') {
-  document.querySelector('.avatar').src = img2016
+switch (window.location.search) {
+  case '?2016':
+    document.querySelector('.avatar').src = img2016
+    break
+  case '?2018':
+    document.querySelector('.avatar').src = img2018
+    break
 }
+
+const date = new Date()
+const years = date.getFullYear() - 2014 + (date.getMonth() >= 6 ? 1 : 0)
+document.querySelector('#years').innerText = years
